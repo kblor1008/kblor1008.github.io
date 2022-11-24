@@ -7,7 +7,7 @@ body {
 .name-info {
   text-align: center;
   color: black;
-  background-color: #E6EBE0; 
+  background-color: #E0E0E2; 
   padding: 30px;
 }
 
@@ -52,6 +52,6 @@ ul {
 
 .exp-header {
   text-align: left;
-  background-color: #E6EBE0;
+  background-color: #E0E0E2;
   padding: 30px;
 }
