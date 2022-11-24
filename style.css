@@ -8,7 +8,7 @@ body {
   text-align: center;
   color: black;
   background-color: #E6EBE0; 
-  padding: 30px
+  padding: 30px;
 }
 
 h1 {
@@ -32,7 +32,7 @@ h4 {
   font-family: Century Gothic, sans-serif;
   font-style: normal;
   font-size: 15px;
-  color: #06908F
+  color: #06908F;
 }
 
 h5 {
@@ -53,5 +53,5 @@ ul {
 .exp-header {
   text-align: left;
   background-color: #E6EBE0;
-  padding: 30px
+  padding: 30px;
 }
