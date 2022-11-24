@@ -1,13 +1,14 @@
 body {
-  background-color: #E6EBE0;
   color: black;
-  padding: 65px;
-  margin: 15px;
+  padding: 30px;
+  margin: 10px;
 }
 
 .name-info {
   text-align: center;
   color: black;
+  background-color: #E6EBE0; 
+  padding: 30px
 }
 
 h1 {
@@ -42,6 +43,7 @@ h5 {
 p {
   font-family: Century Gothic, sans-serif;
   text-align: left;
+  word-break: break-word;
 }
 
 ul {
@@ -50,6 +52,6 @@ ul {
 
 .exp-header {
   text-align: left;
-  position: relative;
-  left: 70px
+  background-color: #E6EBE0;
+  padding: 30px
 }
