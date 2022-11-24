@@ -1,57 +1,87 @@
-body {
-  color: black;
-  padding: 10px;
-  margin: 300px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.name-info {
-  text-align: center;
-  color: black;
-  background-color: #E0E0E2;
-  padding: 50px;
+.wrapper {
+  width: 100%;
 }
 
-h1 {
-  font-family: Century Gothic;
-  font-size: 40px;
-  text-align: center;
+.img-banner {
+  display: none;
 }
 
-h2 {
-  font-size: 15px;
-  font-family: Century Gothic;
+.img-info {
+  width: 100%;
+  
 }
 
-h3 {
-  font-family: Century Gothic, serif;
-  font-style: normal;
-  font-size: 25px;
+.img-info h2 {
+  padding: 30px 30px 20px;
+  font-family: arial;
+  font-size: 50px;
+  color: #111;
+  line-height: 44px;
 }
 
-h4 {
-  font-family: Century Gothic, sans-serif;
-  font-style: normal;
-  font-size: 15px;
-  color: #06908F;
+.img-info p {
+  padding: 0px 30px 20px;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 24px;
 }
 
-h5 {
-  font-family: Century Gothic, sans-serif;
-  font-style: normal;
+.img-me {
+  width: 100%;
 }
 
-p {
-  font-family: Century Gothic, sans-serif;
-  text-align: left;
-  word-break: break-word;
+@media only screen and (min-width: 768px) {
+  .img-banner {
+  display: block;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  
+  .wrapper {
+  width: 600px;
+   margin: 0 auto;
+  }
+  
+  .img-info h2 {
+  padding: 20px 0px 0px;
 }
 
-ul {
-  font-family: Century Gothic, sans-serif;
+.img-info p {
+  padding: 20px 0px 0px;
+ }
+  
+  .img-me {
+  padding-top: 30px;
+ }
 }
 
-.exp-header {
-  text-align: left;
-  background-color: #E0E0E2;
-  padding: 50px;
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+  width: 1000px;
+  }
+  
+  .img-info {
+  width: 50%;
+    float: right;
+ }
+  
+    .img-info h2 {
+  padding: 20px 0px 0px 30px;
+}
+
+.img-info p {
+  padding: 20px 0px 0px 30px;
+ }
+  
+    .img-me {
+  padding-top: 0px;
+      width: 50px;
+      float: left;
+ }
 }
