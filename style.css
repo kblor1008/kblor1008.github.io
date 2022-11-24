@@ -1,0 +1,54 @@
+body {
+  background-color: #E6EBE0;
+  color: black;
+  padding: 65px;
+  margin: 15px;
+}
+
+.name-info {
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  font-family: Century Gothic;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 15px;
+  font-family: Century Gothic;
+}
+
+h3 {
+  font-family: Century Gothic, serif;
+  font-style: normal;
+  font-size: 25px;
+}
+
+h4 {
+  font-family: Century Gothic, sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  color: #06908F
+}
+
+h5 {
+  font-family: Century Gothic, sans-serif;
+  font-style: normal;
+}
+
+p {
+  font-family: Century Gothic, sans-serif;
+  text-align: left;
+}
+
+ul {
+  font-family: Century Gothic, sans-serif;
+}
+
+.exp-header {
+  text-align: left;
+  position: relative;
+  left: 70px
+}
